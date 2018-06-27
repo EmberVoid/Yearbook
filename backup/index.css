@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+article{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1 {
+    color: #FFE363;
+    font-size: 7em;
+    margin: 0;
+}
+
+footer{
+    height: 50px;
+    background-color: #F5F9FA;
+}
+
+main{
+    background-color: #F5F9FA;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.floatLeft{
+    float: Left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.logos{
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 27%;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.name{
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #607F94;
+}
+
+.title{
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #B3C0CA;
+}
+
+.description {
+    color: #97A9B7;
+}
+
+.cardIMG {
+    border-radius: 50px;
+    display: block; /*for the img inside your div */
+    margin: 1em auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#bgfull{
+    background-color: #3D5261;
+    height: 60%;
+    text-align: center;
+    color: #fff;
+}
+
+#bgmid {
+    height: 80%;
+    background-color: #30404C;
+    margin-left: 3%;
+    margin-right: 3%;
+}
